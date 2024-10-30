@@ -1,0 +1,86 @@
+.modal-heading{
+    width: 100%;
+    background-color: lightgray;
+    height: 40px;
+    position: relative;
+  }
+  
+  .input-container{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 15px;
+  }
+  
+  input{
+    height: 30px;
+  }
+  
+  .cut-close{
+    background-color: gray;
+    padding: 4px 7px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    cursor: pointer;
+  }
+  
+  .modal-heading{
+    /* height: 10/0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-heading{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .cancel-btn{
+    background-color: red;
+    color: #fff;
+    width: 90px;
+    border: none;
+    padding: 6px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .confirm-btn{
+    background-color: darkgreen;
+    color: #fff;
+    width: 90px;
+    border: none;
+    padding: 6px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal{
+    background-color: #fff;
+    width:300px;
+    height: 200px;
+    border: red;
+    position: absolute;
+    z-index: 1;
+    padding-top: 0px;
+  }
+  
+  .modal-btns{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    height: 60px;
+    align-items: center;
+    background-color: lightgray;
+    padding-right: 10px;
+  }

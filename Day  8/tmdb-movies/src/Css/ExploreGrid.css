@@ -1,0 +1,8 @@
+.explore-grid{
+    margin: auto;
+    width: 90%;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 70px;
+}   

@@ -1,0 +1,17 @@
+.navbar{
+    padding: 0px 20px;
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+}
+

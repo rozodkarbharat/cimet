@@ -1,0 +1,10 @@
+#table{
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 40px;
+}
+
+tr{
+    margin-top: 20px;
+}
